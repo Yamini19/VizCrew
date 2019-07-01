@@ -81,36 +81,35 @@ def contrast(value,str):
     plt.title("Image with Contrast")
     plt.savefig(str)
 
-#  Smoothening
+  Smoothening
 
 
-# smooth(1,"Smoothing0.png")
-# smooth(3,"Smoothing1.png")
-# smooth(5,"Smoothing2.png")
-# smooth(7,"Smoothing3.png")
-#
-# #  Transformation
-#
-#
-# transform("square","Transformation0.png")
-# transform("log","Transformation1.png")
-# transform("cubic","Transformation2.png")
-# transform("Square root","Transformation3.png")
-#
-# #  Median Filter
-#
-# median(1,"Medianfilter0.png")
-# median(3,"Medianfilter1.png")
-# median(5,"Medianfilter2.png")
-# median(7,"Medianfilter3.png")
-#
-#
-# #  Contour
-#
-# contrast(1,"Contrast0.png")
-# contrast(2,"Contrast1.png")
-# contrast(3,"Contrast2.png")
-# contrast(4,"Contrast3.png")
+ smooth(1,"Smoothing0.png")
+ smooth(3,"Smoothing1.png")
+ smooth(5,"Smoothing2.png")
+ smooth(7,"Smoothing3.png")
+
+ #  Transformation
+
+
+ transform("square","Transformation0.png")
+ transform("log","Transformation1.png")
+ transform("cubic","Transformation2.png")
+ transform("Square root","Transformation3.png")
+
+ #  Median Filter
+
+ median(1,"Medianfilter0.png")
+ median(3,"Medianfilter1.png")
+ median(5,"Medianfilter2.png")
+ median(7,"Medianfilter3.png")
+
+ #  Contour
+
+ contrast(1,"Contrast0.png")
+ contrast(2,"Contrast1.png")
+ contrast(3,"Contrast2.png")
+ contrast(4,"Contrast3.png")
 
 app = dash.Dash()
 
